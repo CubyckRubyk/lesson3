@@ -1,0 +1,86 @@
+.fon {
+    display: flex;
+    background: darkgray;
+    width: 600px;
+    height: 400px;
+
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+
+}
+.menu {
+    width: 70px;
+    height: 30px;
+    background: #1c1919;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 5px;
+    z-index: 0;
+}
+.midline {
+    position: absolute;
+    background: #1c1919;
+    width: 600px;
+    height: 250px;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.w200.h200.bgBase.brdr5.one {
+    position: absolute;
+    z-index: 0;
+    margin-left: 120px;
+    margin-top: 200px;
+}
+.w200.h200.bgBase.brdr5.two {
+    position: absolute;
+    z-index: 0;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+.w200.h200.bgBase.brdr5.three {
+    position: absolute;
+    z-index: 0;
+    margin-left: 370px;
+    margin-top: 200px;
+}
+.img {
+    width: 32px;
+    opacity: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+
+}
+.img1 {
+    width: 30px;
+    opacity: 50%;
+    margin-top: 10px;
+
+    border: 10px;
+}
+body {
+    margin: 0;
+}
+
+
+.w200 {
+    width: 100px;
+}
+
+
+.h200 {
+    height: 100px;
+}
+
+
+.bgBase {
+    background: mediumpurple;
+}
+
+.brdr5 {
+    border-radius: 5px;
+}
